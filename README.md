@@ -71,3 +71,28 @@ Tables may be added, modified, or removed as needed.
        "avatar_url": "https://example.com/avatar.jpg"
       }'
     ```
+
+    
+## Register Page Enhancement by weix20
+
+This update adds a complete role-based registration experience to the KomodoHub platform.
+
+### Key Features:
+- Email, password, and confirm password input fields
+- Role selection dropdown (User/Admin)
+- Privacy policy agreement checkbox (must be checked to register)
+- Real-time input validation and friendly error messages
+
+### Technologies Used:
+- Vue 3 with `<script setup>`
+- Tailwind CSS for styling
+- Vite + TypeScript
+- Git for version control (branch: `Register_Page`)
+
+### Deployment:
+The system has been deployed via Vercel to test the registration UI:  
+[Live Demo](https://komodo-hub-nu.vercel.app)
+
+---
+
+Contributed by **weix20**
